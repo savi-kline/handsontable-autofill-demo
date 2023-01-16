@@ -1,0 +1,66 @@
+<div [style]="isDefaultStateMode ? 'outline: 5px solid #ff9e92' : ''">
+  <div class="action-container">
+    <div class="row justify-content-between align-items-center">
+      <div class="col">
+        <h6>{{ studyTitle }}</h6>
+        <div *ngIf="currentCurrency" class="font-weight-bold1">
+          Currency: {{ currentCurrency?.CurrencyName }}
+        </div>
+      </div>
+      <div class="col-auto">
+        <dx-drop-down-button
+          icon="fas fa-calculator"
+          [dropDownOptions]="{ width: 200 }"
+          displayExpr="name"
+          keyExpr="value"
+          [items]="calculatorContextMenuItems"
+          (onItemClick)="onCalculatedItemClick($event)"
+        >
+        </dx-drop-down-button>
+      </div>
+    </div>
+  </div>
+  <div
+    [style]="isRenderingFinished ? '' : 'filter: blur(5px);'"
+    class="handon-table-containesr w-100"
+  >
+    <hot-table
+      *ngIf="dataSourceData"
+      #hot
+      id="handsonTable"
+      className="userTable"
+      [settings]="hotSettings"
+      [hotId]="id"
+      [manualColumnMove]="true"
+      [colHeaders]="colHeaders"
+      [formulas]="formulas"
+      [rowHeaders]="true"
+      [data]="dataSourceData"
+      [nestedHeaders]="nestedHeaders"
+      [fixedRowsTop]="fixedRowsTop"
+      [fixedColumnsLeft]="fixedColumnsLeft"
+      width="100%"
+      [height]="tableHeight"
+      [renderAllRows]="isRenderAllRows"
+      stretchH="all"
+      [dropdownMenu]="[
+        'filter_by_condition',
+        '---------',
+        'filter_by_value',
+        '---------',
+        'filter_action_bar'
+      ]"
+      [comments]="true"
+      [manualColumnResize]="true"
+      [filters]="dataSettings.handontableSettings.filters"
+      [columnSorting]="dataSettings.handontableSettings.columnSorting"
+      [copyPaste]="dataSettings.handontableSettings.copyPaste"
+      [cell]="cell"
+      [columns]="columns"
+      [hiddenColumns]="hiddenColumns"
+      [licenseKey]="handsontableLicenseKey"
+      (afterFormulasValuesUpdate)="afterFormulasValuesUpdate($event)"
+    >
+    </hot-table>
+  </div>
+</div>

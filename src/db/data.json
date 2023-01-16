@@ -1,0 +1,419 @@
+{
+  "HttpStatusCode": 200,
+  "Data": {
+    "MarketYearCategoryId": 135,
+    "StudySetup": {
+      "StudyDataSetId": 3,
+      "StudyDataSetName": "Professional Skin Care",
+      "StudyProjectId": 5,
+      "ProjectName": "Y563D",
+      "ProjectLeadId": 23012,
+      "ProjectLead": "pranav gandhi",
+      "AnalystIdList": [23218],
+      "AnalystNameList": ["Sachin Patidar"],
+      "AnalystId": 23218,
+      "AnalystName": "Sachin Patidar",
+      "StudyYear": 2022,
+      "MarketId": 187,
+      "MarketName": "India",
+      "Name": "Professional Skin Care-2022-India-ALLS-001",
+      "Description": "test",
+      "Id": 58,
+      "PrefillFromId": 0,
+      "StudyAreaId": 25,
+      "ViewId": 28,
+      "StudyAreaName": "ALL - Sales",
+      "IsSignOff": false,
+      "IsMidYear": false,
+      "LockedForEditBy": 23012,
+      "LockedForEditByName": "pranav gandhi",
+      "CSVAnalystIds": "23218",
+      "CSVAnalystNames": "Sachin Patidar",
+      "CalculatorId": 0
+    },
+    "HasAttribute": false,
+    "Settings": {
+      "basicSettings": { "title": "" },
+      "handontableSettings": {
+        "dropdownMenu": false,
+        "filters": true,
+        "columnSorting": true,
+        "copyPaste": true
+      },
+      "fields": [
+        {
+          "isVisible": true,
+          "isYearValue": false,
+          "caption": "Region",
+          "dataField": "Region",
+          "width": 100,
+          "formula": "",
+          "isValue": false,
+          "dataType": "text",
+          "fieldType": "static",
+          "readOnly": true,
+          "yearType": [],
+          "isVisibleToAddRow": false
+        },
+        {
+          "isVisible": false,
+          "isYearValue": false,
+          "caption": "",
+          "dataField": "MarketId",
+          "width": 50,
+          "formula": "",
+          "isValue": false,
+          "dataType": "numeric",
+          "fieldType": "static",
+          "readOnly": true,
+          "yearType": []
+        },
+        {
+          "isVisible": true,
+          "isYearValue": false,
+          "caption": "Market",
+          "dataField": "Market",
+          "width": 100,
+          "formula": "",
+          "isValue": false,
+          "dataType": "text",
+          "fieldType": "static",
+          "readOnly": true,
+          "yearType": [],
+          "isVisibleToAddRow": false
+        },
+        {
+          "isVisible": false,
+          "isYearValue": false,
+          "caption": "",
+          "dataField": "SegmentId",
+          "width": 50,
+          "formula": "",
+          "isValue": false,
+          "dataType": "numeric",
+          "fieldType": "static",
+          "readOnly": true,
+          "yearType": []
+        },
+        {
+          "isVisible": true,
+          "isYearValue": false,
+          "caption": "Segment",
+          "dataField": "Segment",
+          "width": 130,
+          "formula": "",
+          "isValue": false,
+          "dataType": "text",
+          "fieldType": "static",
+          "readOnly": true,
+          "yearType": [],
+          "isVisibleToAddRow": true
+        },
+        {
+          "isVisible": false,
+          "isYearValue": false,
+          "caption": "",
+          "dataField": "ChannelId",
+          "width": 50,
+          "formula": "",
+          "isValue": false,
+          "dataType": "numeric",
+          "fieldType": "static",
+          "readOnly": true,
+          "yearType": []
+        },
+        {
+          "isVisible": true,
+          "isYearValue": false,
+          "caption": "Channel",
+          "dataField": "Channel",
+          "width": 150,
+          "formula": "",
+          "isValue": false,
+          "dataType": "text",
+          "fieldType": "static",
+          "readOnly": true,
+          "yearType": [],
+          "isVisibleToAddRow": true
+        },
+        {
+          "isVisible": true,
+          "isValue": true,
+          "isYearValue": true,
+          "caption": "Value",
+          "dataField": "Value",
+          "dataType": "numeric",
+          "fieldType": "year",
+          "yearType": ["Previous", "Current", "Forecast"],
+          "width": 50,
+          "formula": "",
+          "readOnly": false
+        }
+      ]
+    },
+    "UnitOfValues": [{ "Title": "Currency", "Unit": "INR", "Id": 11 }],
+    "ColumnList": [
+      { "Title": "Region", "Index": 0, "IsVisible": true },
+      { "Title": "MarketId", "Index": 1, "IsVisible": false },
+      { "Title": "Market", "Index": 2, "IsVisible": true },
+      { "Title": "SegmentId", "Index": 3, "IsVisible": false },
+      { "Title": "Segment", "Index": 4, "IsVisible": true },
+      { "Title": "ChannelId", "Index": 5, "IsVisible": false },
+      { "Title": "Channel", "Index": 6, "IsVisible": true }
+    ],
+    "YearsList": [
+      {
+        "Year": "2017",
+        "Type": "Previous",
+        "Index": 0,
+        "AttributeList": [{ "Title": "Value", "Index": 0 }]
+      },
+      {
+        "Year": "2018",
+        "Type": "Previous",
+        "Index": 1,
+        "AttributeList": [{ "Title": "Value", "Index": 0 }]
+      },
+      {
+        "Year": "2019",
+        "Type": "Previous",
+        "Index": 2,
+        "AttributeList": [{ "Title": "Value", "Index": 0 }]
+      },
+      {
+        "Year": "2020",
+        "Type": "Previous",
+        "Index": 3,
+        "AttributeList": [{ "Title": "Value", "Index": 0 }]
+      },
+      {
+        "Year": "2021",
+        "Type": "Previous",
+        "Index": 4,
+        "AttributeList": [{ "Title": "Value", "Index": 0 }]
+      },
+      {
+        "Year": "2022",
+        "Type": "Current",
+        "Index": 5,
+        "AttributeList": [{ "Title": "Value", "Index": 0 }]
+      },
+      {
+        "Year": "2023",
+        "Type": "Forecast",
+        "Index": 6,
+        "AttributeList": [{ "Title": "Value", "Index": 0 }]
+      },
+      {
+        "Year": "2024",
+        "Type": "Forecast",
+        "Index": 7,
+        "AttributeList": [{ "Title": "Value", "Index": 0 }]
+      },
+      {
+        "Year": "2025",
+        "Type": "Forecast",
+        "Index": 8,
+        "AttributeList": [{ "Title": "Value", "Index": 0 }]
+      },
+      {
+        "Year": "2026",
+        "Type": "Forecast",
+        "Index": 9,
+        "AttributeList": [{ "Title": "Value", "Index": 0 }]
+      },
+      {
+        "Year": "2027",
+        "Type": "Forecast",
+        "Index": 10,
+        "AttributeList": [{ "Title": "Value", "Index": 0 }]
+      }
+    ],
+    "DataList": [
+      {
+        "ColumnsData": [
+          "Asia",
+          187,
+          "India",
+          1,
+          "Back-bar",
+          4,
+          "Beauty institutes and salons"
+        ],
+        "YearsData": {
+          "2017": [4655.0],
+          "2018": [4846.6],
+          "2019": [5404.3],
+          "2020": [0.0],
+          "2021": [0.0],
+          "2022": [0.0],
+          "2023": [0.0],
+          "2024": [7544.5],
+          "2025": [0.0],
+          "2026": [0.0],
+          "2027": [0.0]
+        },
+        "DataRowId": "e1eb8764-33a2-414e-9bca-177765652b14",
+        "ChangeLog": "pranav gandhi###2022-11-08 07:42:09###0.0000###2017###Value###e1eb8764-33a2-414e-9bca-177765652b14",
+        "IsNewRow": false
+      },
+      {
+        "ColumnsData": [
+          "Asia",
+          187,
+          "India",
+          1,
+          "Back-bar",
+          1,
+          "Medical care providers"
+        ],
+        "YearsData": {
+          "2017": [0.0],
+          "2018": [826.2],
+          "2019": [904.7],
+          "2020": [0.0],
+          "2021": [0.0],
+          "2022": [0.0],
+          "2023": [0.0],
+          "2024": [1205.0],
+          "2025": [0.0],
+          "2026": [0.0],
+          "2027": [0.0]
+        },
+        "DataRowId": "b764b88d-270a-405d-8f7b-5c438e0c0443",
+        "ChangeLog": null,
+        "IsNewRow": false
+      },
+      {
+        "ColumnsData": ["Asia", 187, "India", 1, "Back-bar", 2, "Retail"],
+        "YearsData": {
+          "2017": [0.0],
+          "2018": [56.0],
+          "2019": [56.0],
+          "2020": [0.0],
+          "2021": [0.0],
+          "2022": [0.0],
+          "2023": [0.0],
+          "2024": [0.0],
+          "2025": [0.0],
+          "2026": [0.0],
+          "2027": [0.0]
+        },
+        "DataRowId": "291f91d5-ac7c-4673-9a85-4e68dc71bad6",
+        "ChangeLog": null,
+        "IsNewRow": false
+      },
+      {
+        "ColumnsData": ["Asia", 187, "India", 1, "Back-bar", 3, "Spas"],
+        "YearsData": {
+          "2017": [0.0],
+          "2018": [1511.9],
+          "2019": [1659.9],
+          "2020": [0.0],
+          "2021": [0.0],
+          "2022": [0.0],
+          "2023": [0.0],
+          "2024": [2138.8],
+          "2025": [0.0],
+          "2026": [0.0],
+          "2027": [0.0]
+        },
+        "DataRowId": "c93476f7-0517-42fc-a088-d1ba3d31ecd0",
+        "ChangeLog": null,
+        "IsNewRow": false
+      },
+      {
+        "ColumnsData": [
+          "Asia",
+          187,
+          "India",
+          2,
+          "Take-home",
+          4,
+          "Beauty institutes and salons"
+        ],
+        "YearsData": {
+          "2017": [678.0],
+          "2018": [648.4],
+          "2019": [743.9],
+          "2020": [0.0],
+          "2021": [0.0],
+          "2022": [0.0],
+          "2023": [0.0],
+          "2024": [1098.1],
+          "2025": [0.0],
+          "2026": [0.0],
+          "2027": [0.0]
+        },
+        "DataRowId": "2b4f510e-8c1c-49bb-988a-629919646cd0",
+        "ChangeLog": "pranav gandhi###2022-11-10 06:48:46###0.0000###2017###Value###2b4f510e-8c1c-49bb-988a-629919646cd0",
+        "IsNewRow": false
+      },
+      {
+        "ColumnsData": [
+          "Asia",
+          187,
+          "India",
+          2,
+          "Take-home",
+          1,
+          "Medical care providers"
+        ],
+        "YearsData": {
+          "2017": [0.0],
+          "2018": [207.9],
+          "2019": [242.0],
+          "2020": [0.0],
+          "2021": [0.0],
+          "2022": [0.0],
+          "2023": [0.0],
+          "2024": [334.7],
+          "2025": [0.0],
+          "2026": [0.0],
+          "2027": [0.0]
+        },
+        "DataRowId": "3a92ecef-3382-443e-ab94-f5a74a43dbed",
+        "ChangeLog": null,
+        "IsNewRow": false
+      },
+      {
+        "ColumnsData": ["Asia", 187, "India", 2, "Take-home", 2, "Retail"],
+        "YearsData": {
+          "2017": [0.0],
+          "2018": [1955.6],
+          "2019": [2200.3],
+          "2020": [0.0],
+          "2021": [0.0],
+          "2022": [0.0],
+          "2023": [0.0],
+          "2024": [3218.0],
+          "2025": [0.0],
+          "2026": [0.0],
+          "2027": [0.0]
+        },
+        "DataRowId": "73b837ee-17b0-4290-bc49-88e85cba4a42",
+        "ChangeLog": null,
+        "IsNewRow": false
+      },
+      {
+        "ColumnsData": ["Asia", 187, "India", 2, "Take-home", 3, "Spas"],
+        "YearsData": {
+          "2017": [0.0],
+          "2018": [242.1],
+          "2019": [281.5],
+          "2020": [0.0],
+          "2021": [0.0],
+          "2022": [0.0],
+          "2023": [0.0],
+          "2024": [376.7],
+          "2025": [0.0],
+          "2026": [0.0],
+          "2027": [0.0]
+        },
+        "DataRowId": "140a1fae-9782-459b-9f94-82f13b3337fa",
+        "ChangeLog": null,
+        "IsNewRow": false
+      }
+    ]
+  }
+}

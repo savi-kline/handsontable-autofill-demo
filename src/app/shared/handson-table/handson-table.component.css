@@ -1,0 +1,21 @@
+.action-container {
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+}
+
+  .action-container .dx-button {
+    margin: 0 0 0 5px;
+  }
+
+.field-message {
+  color: red;
+}
+
+.cells-cotains-formula {
+  color: red;
+  float: right;
+}
+.custom-textbox{
+  margin-bottom: 4px;
+}

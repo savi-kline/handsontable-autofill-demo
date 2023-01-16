@@ -1,0 +1,4485 @@
+{
+    "HttpStatusCode": 200,
+    "Data": {
+        "MarketYearCategoryId": 849,
+        "StudySetup": {
+            "StudyDataSetId": 3,
+            "StudyDataSetName": "Professional Skin Care",
+            "StudyProjectId": 4,
+            "ProjectName": "Y563D",
+            "ProjectLeadId": 23218,
+            "ProjectLead": "Sachin Patidar",
+            "AnalystIdList": [
+                23012
+            ],
+            "AnalystNameList": [
+                "pranav gandhi"
+            ],
+            "AnalystId": 23012,
+            "AnalystName": "pranav gandhi",
+            "StudyYear": 2022,
+            "MarketId": 187,
+            "MarketName": "India",
+            "Name": "Professional Skin Care-2022-India-BS-001-CHNG",
+            "Description": "Testing Change Log",
+            "Id": 78,
+            "PrefillFromId": 0,
+            "StudyAreaId": 24,
+            "StudyAreaName": "Brand Sales",
+            "IsSignOff": false,
+            "IsMidYear": false,
+            "LockedForEditBy": 23218,
+            "LockedForEditByName": "Sachin Patidar",
+            "CSVAnalystIds": null,
+            "CSVAnalystNames": null,
+            "CalculatorId": 0
+        },
+        "HasAttribute": true,
+        "Settings": {
+            "basicSettings": {
+                "title": ""
+            },
+            "handontableSettings": {
+                "dropdownMenu": false,
+                "filters": true,
+                "columnSorting": true,
+                "copyPaste": true
+            },
+            "fields": [
+                {
+                    "isVisible": true,
+                    "isYearValue": false,
+                    "caption": "Company",
+                    "dataField": "Company",
+                    "width": 130,
+                    "formula": "",
+                    "isValue": false,
+                    "dataType": "text",
+                    "fieldType": "static",
+                    "readOnly": true,
+                    "yearType": []
+                },
+                {
+                    "isVisible": false,
+                    "isValue": false,
+                    "caption": "",
+                    "dataField": "CompanyId",
+                    "dataType": "numeric",
+                    "fieldType": "hide",
+                    "width": 50,
+                    "formula": "",
+                    "readOnly": true
+                },
+                {
+                    "isVisible": true,
+                    "isValue": false,
+                    "caption": "Brand",
+                    "dataField": "Brand",
+                    "dataType": "text",
+                    "fieldType": "static",
+                    "width": 130,
+                    "formula": "",
+                    "readOnly": true
+                },
+                {
+                    "isVisible": false,
+                    "isValue": false,
+                    "caption": "",
+                    "dataField": "BrandId",
+                    "dataType": "numeric",
+                    "fieldType": "hide",
+                    "width": 50,
+                    "formula": "",
+                    "readOnly": true
+                },
+                {
+                    "isVisible": true,
+                    "isValue": false,
+                    "caption": "Channel",
+                    "dataField": "Channel",
+                    "dataType": "text",
+                    "fieldType": "static",
+                    "width": 150,
+                    "formula": "",
+                    "readOnly": true
+                },
+                {
+                    "isVisible": false,
+                    "isValue": false,
+                    "caption": "",
+                    "dataField": "ChannelId",
+                    "dataType": "numeric",
+                    "fieldType": "hide",
+                    "width": 50,
+                    "formula": "",
+                    "readOnly": true
+                },
+                {
+                    "isVisible": true,
+                    "isValue": true,
+                    "isYearValue": true,
+                    "caption": "Value",
+                    "dataField": "Value",
+                    "dataType": "numeric",
+                    "fieldType": "year",
+                    "yearType": [
+                        "Previous",
+                        "Current",
+                        "Forecast"
+                    ],
+                    "width": 50,
+                    "formula": "",
+                    "readOnly": false
+                }
+            ]
+        },
+        "UnitOfValues": [
+            {
+                "Title": "Currency",
+                "Unit": "INR",
+                "Id": 11
+            }
+        ],
+        "ColumnList": [
+            {
+                "Title": "Company",
+                "Index": 0,
+                "IsVisible": true
+            },
+            {
+                "Title": "CompanyId",
+                "Index": 1,
+                "IsVisible": false
+            },
+            {
+                "Title": "Brand",
+                "Index": 2,
+                "IsVisible": true
+            },
+            {
+                "Title": "BrandId",
+                "Index": 3,
+                "IsVisible": false
+            },
+            {
+                "Title": "Channel",
+                "Index": 4,
+                "IsVisible": true
+            },
+            {
+                "Title": "ChannelId",
+                "Index": 5,
+                "IsVisible": false
+            },
+            {
+                "Title": "Market",
+                "Index": 6,
+                "IsVisible": false
+            },
+            {
+                "Title": "MarketId",
+                "Index": 7,
+                "IsVisible": false
+            },
+            {
+                "Title": "Region",
+                "Index": 8,
+                "IsVisible": false
+            }
+        ],
+        "YearsList": [
+            {
+                "Year": "2017",
+                "Type": "Previous",
+                "Index": 0,
+                "AttributeList": [
+                    {
+                        "Title": "Value",
+                        "Index": 0
+                    },
+                    {
+                        "Title": "ChangeLog",
+                        "Index": 1
+                    }
+                ]
+            },
+            {
+                "Year": "2018",
+                "Type": "Previous",
+                "Index": 1,
+                "AttributeList": [
+                    {
+                        "Title": "Value",
+                        "Index": 0
+                    },
+                    {
+                        "Title": "ChangeLog",
+                        "Index": 1
+                    }
+                ]
+            },
+            {
+                "Year": "2019",
+                "Type": "Previous",
+                "Index": 2,
+                "AttributeList": [
+                    {
+                        "Title": "Value",
+                        "Index": 0
+                    },
+                    {
+                        "Title": "ChangeLog",
+                        "Index": 1
+                    }
+                ]
+            },
+            {
+                "Year": "2020",
+                "Type": "Previous",
+                "Index": 3,
+                "AttributeList": [
+                    {
+                        "Title": "Value",
+                        "Index": 0
+                    },
+                    {
+                        "Title": "ChangeLog",
+                        "Index": 1
+                    }
+                ]
+            },
+            {
+                "Year": "2021",
+                "Type": "Previous",
+                "Index": 4,
+                "AttributeList": [
+                    {
+                        "Title": "Value",
+                        "Index": 0
+                    },
+                    {
+                        "Title": "ChangeLog",
+                        "Index": 1
+                    }
+                ]
+            },
+            {
+                "Year": "2022",
+                "Type": "Current",
+                "Index": 5,
+                "AttributeList": [
+                    {
+                        "Title": "Value",
+                        "Index": 0
+                    },
+                    {
+                        "Title": "ChangeLog",
+                        "Index": 1
+                    }
+                ]
+            }
+        ],
+        "DataList": [
+            {
+                "ColumnsData": [
+                    "L’Oréal",
+                    2,
+                    "Decléor Paris",
+                    45,
+                    "Beauty institutes and salons",
+                    4,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        34.0000,
+                        "Sachin Patidar###2022-09-05 11:38:17###0.0000###Value"
+                    ],
+                    "2018": [
+                        23.0000,
+                        "Sachin Patidar###2022-09-05 11:38:17###65.0000###Value"
+                    ],
+                    "2019": [
+                        45.0000,
+                        "Sachin Patidar###2022-09-05 11:38:04###74.0000###Value"
+                    ],
+                    "2020": [
+                        78.0000,
+                        null
+                    ],
+                    "2021": [
+                        23.0000,
+                        "Sachin Patidar###2022-09-05 11:38:04###0.0000###Value"
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "c3326269-3dd4-4f41-923a-8b7f1220271b",
+                "ChangeLog": "Sachin Patidar###2022-09-05 11:38:17###0.0000###2017###Value###c3326269-3dd4-4f41-923a-8b7f1220271b|||Sachin Patidar###2022-09-05 11:38:17###65.0000###2018###Value###c3326269-3dd4-4f41-923a-8b7f1220271b|||Sachin Patidar###2022-09-05 11:38:04###74.0000###2019###Value###c3326269-3dd4-4f41-923a-8b7f1220271b|||Sachin Patidar###2022-09-05 11:38:04###0.0000###2021###Value###c3326269-3dd4-4f41-923a-8b7f1220271b|||Sachin Patidar###2022-09-05 11:38:17###0.0000###2017###Value###c3326269-3dd4-4f41-923a-8b7f1220271b|||Sachin Patidar###2022-09-05 11:38:17###65.0000###2018###Value###c3326269-3dd4-4f41-923a-8b7f1220271b|||Sachin Patidar###2022-09-05 11:38:04###74.0000###2019###Value###c3326269-3dd4-4f41-923a-8b7f1220271b|||Sachin Patidar###2022-09-05 11:38:04###0.0000###2021###Value###c3326269-3dd4-4f41-923a-8b7f1220271b|||Sachin Patidar###2022-09-05 11:38:17###0.0000###2017###Value###c3326269-3dd4-4f41-923a-8b7f1220271b|||Sachin Patidar###2022-09-05 11:38:17###65.0000###2018###Value###c3326269-3dd4-4f41-923a-8b7f1220271b|||Sachin Patidar###2022-09-05 11:38:04###74.0000###2019###Value###c3326269-3dd4-4f41-923a-8b7f1220271b|||Sachin Patidar###2022-09-05 11:38:04###0.0000###2021###Value###c3326269-3dd4-4f41-923a-8b7f1220271b|||Sachin Patidar###2022-09-05 11:38:17###0.0000###2017###Value###c3326269-3dd4-4f41-923a-8b7f1220271b|||Sachin Patidar###2022-09-05 11:38:17###65.0000###2018###Value###c3326269-3dd4-4f41-923a-8b7f1220271b|||Sachin Patidar###2022-09-05 11:38:04###74.0000###2019###Value###c3326269-3dd4-4f41-923a-8b7f1220271b|||Sachin Patidar###2022-09-05 11:38:04###0.0000###2021###Value###c3326269-3dd4-4f41-923a-8b7f1220271b|||Sachin Patidar###2022-09-05 11:38:17###0.0000###2017###Value###c3326269-3dd4-4f41-923a-8b7f1220271b|||Sachin Patidar###2022-09-05 11:38:17###65.0000###2018###Value###c3326269-3dd4-4f41-923a-8b7f1220271b|||Sachin Patidar###2022-09-05 11:38:04###74.0000###2019###Value###c3326269-3dd4-4f41-923a-8b7f1220271b|||Sachin Patidar###2022-09-05 11:38:04###0.0000###2021###Value###c3326269-3dd4-4f41-923a-8b7f1220271b|||Sachin Patidar###2022-09-05 11:38:17###0.0000###2017###Value###c3326269-3dd4-4f41-923a-8b7f1220271b|||Sachin Patidar###2022-09-05 11:38:17###65.0000###2018###Value###c3326269-3dd4-4f41-923a-8b7f1220271b|||Sachin Patidar###2022-09-05 11:38:04###74.0000###2019###Value###c3326269-3dd4-4f41-923a-8b7f1220271b|||Sachin Patidar###2022-09-05 11:38:04###0.0000###2021###Value###c3326269-3dd4-4f41-923a-8b7f1220271b",
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "L’Oréal",
+                    2,
+                    "Cheryl's Cosmeceuticals",
+                    316,
+                    "Spas",
+                    3,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        17.7000,
+                        null
+                    ],
+                    "2019": [
+                        18.5000,
+                        null
+                    ],
+                    "2020": [
+                        132.0000,
+                        null
+                    ],
+                    "2021": [
+                        100.0000,
+                        null
+                    ],
+                    "2022": [
+                        312.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "207a72d8-993a-4739-b9d0-76391ee82317",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "L’Oréal",
+                    2,
+                    "Cheryl's Cosmeceuticals",
+                    316,
+                    "Beauty institutes and salons",
+                    4,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        351.2000,
+                        null
+                    ],
+                    "2019": [
+                        461.6000,
+                        null
+                    ],
+                    "2020": [
+                        10000.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "c18ac13f-c579-48b5-8e6b-58ad7c053542",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Pierre Fabre",
+                    6,
+                    "Avène",
+                    232,
+                    "Medical care providers",
+                    1,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        30.0000,
+                        null
+                    ],
+                    "2019": [
+                        32.1000,
+                        null
+                    ],
+                    "2020": [
+                        34.0000,
+                        null
+                    ],
+                    "2021": [
+                        34.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "c0521d32-10bc-474e-939e-80dd82a82f85",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Private label",
+                    9,
+                    "Private label",
+                    9,
+                    "Retail",
+                    2,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        440.6000,
+                        null
+                    ],
+                    "2019": [
+                        480.1000,
+                        null
+                    ],
+                    "2020": [
+                        450.0000,
+                        null
+                    ],
+                    "2021": [
+                        460.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "24adf0d9-ec57-419b-8849-c4b7d6ebbb75",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Private label",
+                    9,
+                    "Private label",
+                    9,
+                    "Spas",
+                    3,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        107.5000,
+                        null
+                    ],
+                    "2019": [
+                        111.1000,
+                        null
+                    ],
+                    "2020": [
+                        56.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        67.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "b9b291a9-b9b1-4791-8bbd-aa8377206012",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Private label",
+                    9,
+                    "Private label",
+                    9,
+                    "Beauty institutes and salons",
+                    4,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        966.9000,
+                        null
+                    ],
+                    "2019": [
+                        1019.8000,
+                        null
+                    ],
+                    "2020": [
+                        566.0000,
+                        null
+                    ],
+                    "2021": [
+                        566.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "da133980-4370-4012-9962-8cc58f179292",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Phytomer",
+                    31,
+                    "Phytomer",
+                    34,
+                    "Medical care providers",
+                    1,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        5.1000,
+                        null
+                    ],
+                    "2019": [
+                        5.7000,
+                        null
+                    ],
+                    "2020": [
+                        6.0000,
+                        null
+                    ],
+                    "2021": [
+                        7.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "a6c39221-8cf0-477d-b4d9-3dea3768fce1",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Phytomer",
+                    31,
+                    "Phytomer",
+                    34,
+                    "Retail",
+                    2,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        6.0000,
+                        null
+                    ],
+                    "2019": [
+                        6.9000,
+                        null
+                    ],
+                    "2020": [
+                        7.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "f21273d3-1a82-4559-a27f-0090323d3eae",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Phytomer",
+                    31,
+                    "Phytomer",
+                    34,
+                    "Spas",
+                    3,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        11.0000,
+                        null
+                    ],
+                    "2019": [
+                        11.5000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "bd6c2a85-c4ac-4b1a-8243-9fc51c12faf4",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Phytomer",
+                    31,
+                    "Phytomer",
+                    34,
+                    "Beauty institutes and salons",
+                    4,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        33.9000,
+                        null
+                    ],
+                    "2019": [
+                        38.9000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "b9548b68-6a0f-482e-85eb-77155e701218",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "BABOR",
+                    33,
+                    "BABOR",
+                    36,
+                    "Retail",
+                    2,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        20.0000,
+                        null
+                    ],
+                    "2019": [
+                        21.2000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "531fa569-d2c2-4462-a346-37347981b7e1",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "BABOR",
+                    33,
+                    "BABOR",
+                    36,
+                    "Spas",
+                    3,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        31.0000,
+                        null
+                    ],
+                    "2019": [
+                        33.9000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "f57255cd-fcd6-4625-a7db-a19dc8d9891b",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "BABOR",
+                    33,
+                    "BABOR",
+                    36,
+                    "Beauty institutes and salons",
+                    4,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        49.0000,
+                        null
+                    ],
+                    "2019": [
+                        54.2000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "5942e6c3-1711-4a1b-8965-caea4bb1274f",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Sothys Paris",
+                    37,
+                    "Sothys Paris",
+                    40,
+                    "Spas",
+                    3,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        6.0000,
+                        null
+                    ],
+                    "2019": [
+                        7.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "b8b0755d-4da6-4b49-b029-db14812dcfb9",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Sothys Paris",
+                    37,
+                    "Sothys Paris",
+                    40,
+                    "Beauty institutes and salons",
+                    4,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        10.0000,
+                        null
+                    ],
+                    "2019": [
+                        11.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "20a270ea-7f5e-4eaa-8dcb-1da948ebc762",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "All other",
+                    38,
+                    "All other",
+                    41,
+                    "Medical care providers",
+                    1,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        368.3000,
+                        null
+                    ],
+                    "2019": [
+                        400.1000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "16942786-1ba3-406e-b986-5e1d0cabc360",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "All other",
+                    38,
+                    "All other",
+                    41,
+                    "Retail",
+                    2,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        811.6000,
+                        null
+                    ],
+                    "2019": [
+                        895.3000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "01db1add-9373-4de8-b667-1d024f0cac6d",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "All other",
+                    38,
+                    "All other",
+                    41,
+                    "Spas",
+                    3,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        90.0000,
+                        null
+                    ],
+                    "2019": [
+                        94.6000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "851cb17a-3166-4a82-8cb6-08d17d425026",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "All other",
+                    38,
+                    "All other",
+                    41,
+                    "Beauty institutes and salons",
+                    4,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        1614.2000,
+                        null
+                    ],
+                    "2019": [
+                        1700.6000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "0a3a903c-2acb-4a61-bb43-717c31dcf1f0",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Pevonia Botanica",
+                    46,
+                    "Pevonia",
+                    209,
+                    "Spas",
+                    3,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        53.2000,
+                        null
+                    ],
+                    "2019": [
+                        57.2000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "7f934295-c956-4d05-9ef4-6ebdf28f1b7e",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Pevonia Botanica",
+                    46,
+                    "Pevonia",
+                    209,
+                    "Beauty institutes and salons",
+                    4,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        22.8000,
+                        null
+                    ],
+                    "2019": [
+                        24.5000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "d5c56f73-087a-453f-bd85-4192d9fd8773",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Thalgo Cosmetics",
+                    53,
+                    "Thalgo",
+                    57,
+                    "Retail",
+                    2,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        6.9000,
+                        null
+                    ],
+                    "2019": [
+                        8.2000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "689517e4-2d78-4165-a61a-02d3c9b5214c",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Thalgo Cosmetics",
+                    53,
+                    "Thalgo",
+                    57,
+                    "Spas",
+                    3,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        14.4000,
+                        null
+                    ],
+                    "2019": [
+                        15.7000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "34535ba5-6857-4cf8-930f-46a173a2aaae",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Thalgo Cosmetics",
+                    53,
+                    "Thalgo",
+                    57,
+                    "Beauty institutes and salons",
+                    4,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        48.7000,
+                        null
+                    ],
+                    "2019": [
+                        54.8000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "749220c0-fd54-4bfd-bdeb-099a9c1195d7",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Davines",
+                    59,
+                    "Comfort Zone",
+                    65,
+                    "Spas",
+                    3,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        20.0000,
+                        null
+                    ],
+                    "2019": [
+                        22.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "795a60ce-a893-4abd-877e-705483ff526e",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Davines",
+                    59,
+                    "Comfort Zone",
+                    65,
+                    "Beauty institutes and salons",
+                    4,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        30.0000,
+                        null
+                    ],
+                    "2019": [
+                        36.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "0a811f81-b565-4040-a0a6-426fe427b91b",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Skeyndor",
+                    62,
+                    "Skeyndor",
+                    68,
+                    "Retail",
+                    2,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        21.0000,
+                        null
+                    ],
+                    "2019": [
+                        25.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "019dc341-bc2d-4f78-96a3-ffaa3213c61f",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Skeyndor",
+                    62,
+                    "Skeyndor",
+                    68,
+                    "Spas",
+                    3,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        35.6000,
+                        null
+                    ],
+                    "2019": [
+                        37.9000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "e34e3f98-c234-432f-9d13-b1fb232355a0",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Skeyndor",
+                    62,
+                    "Skeyndor",
+                    68,
+                    "Beauty institutes and salons",
+                    4,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        143.4000,
+                        null
+                    ],
+                    "2019": [
+                        172.1000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "ca3c58cf-275e-4ef4-bead-56b08eba0eb5",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Reviderm",
+                    65,
+                    "Reviderm",
+                    71,
+                    "Medical care providers",
+                    1,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        75.0000,
+                        null
+                    ],
+                    "2019": [
+                        84.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "55201ea8-b541-4711-8017-1d517f630d4a",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Janssen Cosmetics",
+                    66,
+                    "Janssen Cosmetics",
+                    258,
+                    "Spas",
+                    3,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        85.0000,
+                        null
+                    ],
+                    "2019": [
+                        97.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "8bd87b99-93ba-4ab7-8a7a-04a931fe272d",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Janssen Cosmetics",
+                    66,
+                    "Janssen Cosmetics",
+                    258,
+                    "Beauty institutes and salons",
+                    4,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        36.0000,
+                        null
+                    ],
+                    "2019": [
+                        40.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "67be6a22-f6e3-44c4-b01c-30459ee2134d",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Repêchage",
+                    155,
+                    "Repêchage",
+                    37,
+                    "Retail",
+                    2,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        11.0000,
+                        null
+                    ],
+                    "2019": [
+                        12.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "83a5ca88-3d29-46f9-8350-7ddb8509fe44",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Repêchage",
+                    155,
+                    "Repêchage",
+                    37,
+                    "Spas",
+                    3,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        22.0000,
+                        null
+                    ],
+                    "2019": [
+                        24.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "8293ea3a-0653-4b76-8e92-52de29d87df8",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Repêchage",
+                    155,
+                    "Repêchage",
+                    37,
+                    "Beauty institutes and salons",
+                    4,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        77.0000,
+                        null
+                    ],
+                    "2019": [
+                        85.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "37b1e50e-a4e3-4544-9dfa-ea78982e9d28",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Unilever",
+                    180,
+                    "Dermalogica",
+                    33,
+                    "Spas",
+                    3,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        21.0000,
+                        null
+                    ],
+                    "2019": [
+                        23.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "5111a1d1-db6c-4c64-a633-fb4e996be879",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Unilever",
+                    180,
+                    "Dermalogica",
+                    33,
+                    "Beauty institutes and salons",
+                    4,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        9.0000,
+                        null
+                    ],
+                    "2019": [
+                        10.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "d31e4f17-8104-4c65-a300-56507e0d6864",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "ZO Skin Health",
+                    199,
+                    "ZO Skin Health",
+                    21,
+                    "Medical care providers",
+                    1,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        75.0000,
+                        null
+                    ],
+                    "2019": [
+                        92.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "2487b34d-86cb-4e52-86ec-643418fd6ef6",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Pharmos Natur Green Luxury",
+                    289,
+                    "Glytone",
+                    6,
+                    "Beauty institutes and spas",
+                    5,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        200.0000,
+                        null
+                    ],
+                    "2018": [
+                        300.0000,
+                        null
+                    ],
+                    "2019": [
+                        400.0000,
+                        null
+                    ],
+                    "2020": [
+                        500.0000,
+                        null
+                    ],
+                    "2021": [
+                        600.0000,
+                        null
+                    ],
+                    "2022": [
+                        700.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "8f9b06d7-5523-4271-90be-b12a7dbf3388",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Kama Ayurveda Pvt. Ltd.",
+                    291,
+                    "Kama Ayurveda",
+                    308,
+                    "Spas",
+                    3,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        72.0000,
+                        null
+                    ],
+                    "2019": [
+                        88.1000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "77537f8f-07df-4d10-a639-91367e14cedc",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Kama Ayurveda Pvt. Ltd.",
+                    291,
+                    "Kama Ayurveda",
+                    308,
+                    "Beauty institutes and salons",
+                    4,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        20.0000,
+                        null
+                    ],
+                    "2019": [
+                        21.9000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "b50413a4-bacd-49d3-a90b-df83380a041c",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Kundan Care Products Limited",
+                    292,
+                    "Allaine",
+                    309,
+                    "Retail",
+                    2,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        5.0000,
+                        null
+                    ],
+                    "2019": [
+                        5.6000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "1831507a-0234-4ad7-986e-5563d2dd0996",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Kundan Care Products Limited",
+                    292,
+                    "Allaine",
+                    309,
+                    "Spas",
+                    3,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        10.0000,
+                        null
+                    ],
+                    "2019": [
+                        11.4000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "e4421323-3f95-472d-a6f6-eaf2866f646e",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Kundan Care Products Limited",
+                    292,
+                    "Allaine",
+                    309,
+                    "Beauty institutes and salons",
+                    4,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        36.0000,
+                        null
+                    ],
+                    "2019": [
+                        43.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "e4d3b653-a8f4-4a7a-aeaa-d7d5167c53cc",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "VLCC",
+                    293,
+                    "VLCC",
+                    310,
+                    "Medical care providers",
+                    1,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        150.0000,
+                        null
+                    ],
+                    "2019": [
+                        158.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "d9cb9cfb-5af5-46d9-a424-87086f083241",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Omorovicza Cosmetics Limited",
+                    294,
+                    "Omorovicza",
+                    311,
+                    "Retail",
+                    2,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        4.0000,
+                        null
+                    ],
+                    "2019": [
+                        4.4000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "3a4363c3-9269-414a-bfea-7d91cda79b88",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Omorovicza Cosmetics Limited",
+                    294,
+                    "Omorovicza",
+                    311,
+                    "Spas",
+                    3,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        8.0000,
+                        null
+                    ],
+                    "2019": [
+                        8.7000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "5c68cd55-5106-4830-bae6-635cc8c83e87",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Omorovicza Cosmetics Limited",
+                    294,
+                    "Omorovicza",
+                    311,
+                    "Beauty institutes and salons",
+                    4,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        29.0000,
+                        null
+                    ],
+                    "2019": [
+                        31.9000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "c6f97c69-a58f-491c-ad70-822da3d53ac7",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Shahnaz Husain Group",
+                    295,
+                    "Shahnaz Husain",
+                    312,
+                    "Retail",
+                    2,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        60.0000,
+                        null
+                    ],
+                    "2019": [
+                        64.0000,
+                        null
+                    ],
+                    "2020": [
+                        10000.0000,
+                        null
+                    ],
+                    "2021": [
+                        9000.0000,
+                        null
+                    ],
+                    "2022": [
+                        8000.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "9f1e2a8a-b185-4e1f-90cb-8957d5feb91e",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Shahnaz Husain Group",
+                    295,
+                    "Shahnaz Husain",
+                    312,
+                    "Spas",
+                    3,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        90.0000,
+                        null
+                    ],
+                    "2019": [
+                        92.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "bcff66da-c0dc-46c0-ab61-a3d234954f80",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Shahnaz Husain Group",
+                    295,
+                    "Shahnaz Husain",
+                    312,
+                    "Beauty institutes and salons",
+                    4,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        150.0000,
+                        null
+                    ],
+                    "2019": [
+                        156.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "eb6d520e-4c97-4b69-b76b-7570fbec9fe5",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Rémy Laure",
+                    296,
+                    "Rémy Laure",
+                    313,
+                    "Retail",
+                    2,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        8.0000,
+                        null
+                    ],
+                    "2019": [
+                        9.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "f1e3bd6e-c7eb-4525-88b4-acbc5f595d6b",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Rémy Laure",
+                    296,
+                    "Rémy Laure",
+                    313,
+                    "Spas",
+                    3,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        22.0000,
+                        null
+                    ],
+                    "2019": [
+                        26.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "af1b1f17-4be4-417e-9ddc-0201a2306092",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Rémy Laure",
+                    296,
+                    "Rémy Laure",
+                    313,
+                    "Beauty institutes and salons",
+                    4,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        45.0000,
+                        null
+                    ],
+                    "2019": [
+                        53.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "ffdae724-5f04-4cd2-9758-2bbef330abb9",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Ellementco",
+                    297,
+                    "Ellementco",
+                    314,
+                    "Retail",
+                    2,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        9.5000,
+                        null
+                    ],
+                    "2019": [
+                        10.4000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "9af83a8c-cb8c-43f4-b84b-c6193d12ebbe",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Ellementco",
+                    297,
+                    "Ellementco",
+                    314,
+                    "Spas",
+                    3,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        11.0000,
+                        null
+                    ],
+                    "2019": [
+                        11.5000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "d7d38ad1-079b-421a-b196-82aecda34927",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Ellementco",
+                    297,
+                    "Ellementco",
+                    314,
+                    "Beauty institutes and salons",
+                    4,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        49.5000,
+                        null
+                    ],
+                    "2019": [
+                        54.1000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "90da568b-32f7-4b9c-92cf-6525f4c8dbeb",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Forest Essentials Pvt. Ltd.",
+                    298,
+                    "Forest Essentials",
+                    315,
+                    "Spas",
+                    3,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        225.0000,
+                        null
+                    ],
+                    "2019": [
+                        270.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "97eb551f-da9d-4472-8c14-362608ce8834",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Forest Essentials Pvt. Ltd.",
+                    298,
+                    "Forest Essentials",
+                    315,
+                    "Beauty institutes and salons",
+                    4,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        35.0000,
+                        null
+                    ],
+                    "2019": [
+                        40.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "2de7d759-cae3-4890-953d-832545e31313",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Rejsol",
+                    299,
+                    "Rejsol",
+                    317,
+                    "Medical care providers",
+                    1,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        10.7000,
+                        null
+                    ],
+                    "2019": [
+                        11.4000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "e8f8afac-aab3-41fd-b6fc-83c5f6ee2182",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Sesderma Laboratorios",
+                    300,
+                    "Sesderma",
+                    318,
+                    "Medical care providers",
+                    1,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        20.0000,
+                        null
+                    ],
+                    "2019": [
+                        22.4000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "3cd04933-55fa-4800-b014-c95eedc47666",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Sesderma Laboratorios",
+                    300,
+                    "Sesderma",
+                    318,
+                    "Spas",
+                    3,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        2.6000,
+                        null
+                    ],
+                    "2019": [
+                        2.9000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "e9d48a14-a1e7-41b8-9f2c-c5667d1c90be",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Sesderma Laboratorios",
+                    300,
+                    "Sesderma",
+                    318,
+                    "Beauty institutes and salons",
+                    4,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        2.4000,
+                        null
+                    ],
+                    "2019": [
+                        2.7000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "f6543d20-73a5-447d-8736-6d7560333d91",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Olivia Cosmetics",
+                    301,
+                    "Olivia",
+                    319,
+                    "Retail",
+                    2,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        50.0000,
+                        null
+                    ],
+                    "2019": [
+                        58.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "45788038-4428-4a48-bdc1-4a9ede18ce85",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Olivia Cosmetics",
+                    301,
+                    "Olivia",
+                    319,
+                    "Spas",
+                    3,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        30.0000,
+                        null
+                    ],
+                    "2019": [
+                        32.5000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "d1c480a6-4b6b-48bd-95b6-db034f5da9a5",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Olivia Cosmetics",
+                    301,
+                    "Olivia",
+                    319,
+                    "Beauty institutes and salons",
+                    4,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        120.0000,
+                        null
+                    ],
+                    "2019": [
+                        132.5000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "c41bc561-441c-4106-906e-f1e9779a0482",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Visage Beauty & Health Care Pvt Ltd",
+                    302,
+                    "O3+",
+                    320,
+                    "Medical care providers",
+                    1,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        65.0000,
+                        null
+                    ],
+                    "2019": [
+                        72.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "6ce817e3-3ebd-4da8-85e4-85743432ee9a",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Visage Beauty & Health Care Pvt Ltd",
+                    302,
+                    "O3+",
+                    320,
+                    "Retail",
+                    2,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        128.0000,
+                        null
+                    ],
+                    "2019": [
+                        159.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "d9ed7d1b-15dd-40e8-8749-f3cc7afeb50a",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Visage Beauty & Health Care Pvt Ltd",
+                    302,
+                    "O3+",
+                    320,
+                    "Spas",
+                    3,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        222.0000,
+                        null
+                    ],
+                    "2019": [
+                        242.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "accbb67c-3037-4421-aae3-f0f13ea706ee",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Visage Beauty & Health Care Pvt Ltd",
+                    302,
+                    "O3+",
+                    320,
+                    "Beauty institutes and salons",
+                    4,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        600.0000,
+                        null
+                    ],
+                    "2019": [
+                        735.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "91509e76-4a68-46b7-91d4-a74f52b601f5",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Three-N-Products Pvt. Ltd.",
+                    303,
+                    "Ayur Herbals",
+                    321,
+                    "Retail",
+                    2,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        95.0000,
+                        null
+                    ],
+                    "2019": [
+                        112.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "94e86455-b2fa-4e4c-88fa-d396d90e0830",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Three-N-Products Pvt. Ltd.",
+                    303,
+                    "Ayur Herbals",
+                    321,
+                    "Spas",
+                    3,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        50.0000,
+                        null
+                    ],
+                    "2019": [
+                        55.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "6cd65c12-00a9-4142-9b83-9352e7d064d8",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Three-N-Products Pvt. Ltd.",
+                    303,
+                    "Ayur Herbals",
+                    321,
+                    "Beauty institutes and salons",
+                    4,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        105.0000,
+                        null
+                    ],
+                    "2019": [
+                        117.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "c99b8e5a-6fa7-4044-8a14-8460abd047c1",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Organic Harvest Pvt. Ltd.",
+                    304,
+                    "Organic Harvest",
+                    322,
+                    "Retail",
+                    2,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        5.0000,
+                        null
+                    ],
+                    "2019": [
+                        6.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "0266915b-d6ee-4496-af9d-c0e69f59a4e7",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Organic Harvest Pvt. Ltd.",
+                    304,
+                    "Organic Harvest",
+                    322,
+                    "Spas",
+                    3,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        15.0000,
+                        null
+                    ],
+                    "2019": [
+                        16.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "9ecf5572-1aea-4818-a790-ebcbf5f9400c",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Organic Harvest Pvt. Ltd.",
+                    304,
+                    "Organic Harvest",
+                    322,
+                    "Beauty institutes and salons",
+                    4,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        30.0000,
+                        null
+                    ],
+                    "2019": [
+                        31.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "15260e1c-8843-423a-945d-fce58885aee6",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "B.Lab",
+                    305,
+                    "B.Lab",
+                    323,
+                    "Retail",
+                    2,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        3.0000,
+                        null
+                    ],
+                    "2019": [
+                        4.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "66f91ae0-3cf8-49ac-be53-77a3119a0e5a",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "B.Lab",
+                    305,
+                    "B.Lab",
+                    323,
+                    "Spas",
+                    3,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        6.0000,
+                        null
+                    ],
+                    "2019": [
+                        7.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "2b745446-e443-49c5-8d34-5d2a8832da1b",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "B.Lab",
+                    305,
+                    "B.Lab",
+                    323,
+                    "Beauty institutes and salons",
+                    4,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        22.0000,
+                        null
+                    ],
+                    "2019": [
+                        24.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "45199046-be72-4615-a71b-c83623ca9e92",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Jolen Inc.",
+                    306,
+                    "Jolen",
+                    324,
+                    "Retail",
+                    2,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        15.0000,
+                        null
+                    ],
+                    "2019": [
+                        17.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "fe22e1ac-bc34-4cd8-89b8-79a033766c30",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Jolen Inc.",
+                    306,
+                    "Jolen",
+                    324,
+                    "Spas",
+                    3,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        105.0000,
+                        null
+                    ],
+                    "2019": [
+                        115.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "6b72afc3-02bf-4ed4-90b9-b96b8c5d871e",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Jolen Inc.",
+                    306,
+                    "Jolen",
+                    324,
+                    "Beauty institutes and salons",
+                    4,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        30.0000,
+                        null
+                    ],
+                    "2019": [
+                        33.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "0c612022-d3df-4387-95ab-118e4f8cb9b9",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Lotus Professional Pvt. Ltd.",
+                    307,
+                    "Lotus Professional",
+                    325,
+                    "Retail",
+                    2,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        175.0000,
+                        null
+                    ],
+                    "2019": [
+                        211.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "880358ff-2fe5-4342-980e-3d6287d72ea9",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Lotus Professional Pvt. Ltd.",
+                    307,
+                    "Lotus Professional",
+                    325,
+                    "Spas",
+                    3,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        126.0000,
+                        null
+                    ],
+                    "2019": [
+                        141.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "77a246f8-bcf4-4115-9611-4189c53956b3",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Lotus Professional Pvt. Ltd.",
+                    307,
+                    "Lotus Professional",
+                    325,
+                    "Beauty institutes and salons",
+                    4,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        469.0000,
+                        null
+                    ],
+                    "2019": [
+                        552.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "a58c441f-da5e-431b-92e3-c574c87eb330",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Bio Veda Action Research Co.",
+                    308,
+                    "Biotique",
+                    326,
+                    "Spas",
+                    3,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        100.0000,
+                        null
+                    ],
+                    "2019": [
+                        110.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "ba2d3fe3-ae21-446c-9e49-11b62d94049f",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Christine Valmy",
+                    309,
+                    "Christine Valmy",
+                    327,
+                    "Retail",
+                    2,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        12.0000,
+                        null
+                    ],
+                    "2019": [
+                        13.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "2eb35867-0762-49ea-9327-7141d63bf983",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Christine Valmy",
+                    309,
+                    "Christine Valmy",
+                    327,
+                    "Spas",
+                    3,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        36.0000,
+                        null
+                    ],
+                    "2019": [
+                        40.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "6cb93113-7073-4fd1-b547-c61138c92b92",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Christine Valmy",
+                    309,
+                    "Christine Valmy",
+                    327,
+                    "Beauty institutes and salons",
+                    4,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        72.0000,
+                        null
+                    ],
+                    "2019": [
+                        83.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "edc0dcf4-31c5-462e-b4eb-34db44d83633",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Bioderma Laboratoire Dermatologique",
+                    310,
+                    "Bioderma",
+                    163,
+                    "Medical care providers",
+                    1,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        35.0000,
+                        null
+                    ],
+                    "2019": [
+                        39.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "2cc4df3a-8d87-4d45-9e45-fed3a8ade7d0",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Bioderma Laboratoire Dermatologique",
+                    310,
+                    "Bioderma",
+                    163,
+                    "Retail",
+                    2,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        15.0000,
+                        null
+                    ],
+                    "2019": [
+                        17.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "cf93486d-79a5-4a95-b3f1-564a26bb0894",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Anoo's Salon & Clinic",
+                    311,
+                    "Anoo's",
+                    328,
+                    "Beauty institutes and salons",
+                    4,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        31.0000,
+                        null
+                    ],
+                    "2019": [
+                        34.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "c36b5688-0b0f-408c-a3eb-a313fb1a77cc",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Casmara Cosmetics",
+                    312,
+                    "Casmara",
+                    329,
+                    "Retail",
+                    2,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        44.0000,
+                        null
+                    ],
+                    "2019": [
+                        49.2000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "33f35d65-3510-4c49-b656-7ff8504bd446",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Casmara Cosmetics",
+                    312,
+                    "Casmara",
+                    329,
+                    "Spas",
+                    3,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        44.0000,
+                        null
+                    ],
+                    "2019": [
+                        46.2000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "ecf58b8b-76ac-4f39-a98d-cca8540ed864",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Casmara Cosmetics",
+                    312,
+                    "Casmara",
+                    329,
+                    "Beauty institutes and salons",
+                    4,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        132.0000,
+                        null
+                    ],
+                    "2019": [
+                        155.6000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "8686d8b1-0aa2-446b-83df-426c4449a642",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "CavinKare Pvt. Ltd.",
+                    313,
+                    "Raaga Professional",
+                    330,
+                    "Retail",
+                    2,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        10.0000,
+                        null
+                    ],
+                    "2019": [
+                        12.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "3c0ed715-8861-461c-9981-8c4b45a1c6ea",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "CavinKare Pvt. Ltd.",
+                    313,
+                    "Raaga Professional",
+                    330,
+                    "Spas",
+                    3,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        30.0000,
+                        null
+                    ],
+                    "2019": [
+                        34.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "7b53bb36-d0c8-4a59-b5d6-faa785046047",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "CavinKare Pvt. Ltd.",
+                    313,
+                    "Raaga Professional",
+                    330,
+                    "Beauty institutes and salons",
+                    4,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        60.0000,
+                        null
+                    ],
+                    "2019": [
+                        66.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "1266ecbf-e65f-4199-b5c9-8d68f6bd1ec1",
+                "ChangeLog": null,
+                "IsNewRow": false
+            },
+            {
+                "ColumnsData": [
+                    "Kaya Limited",
+                    314,
+                    "Kaya",
+                    331,
+                    "Medical care providers",
+                    1,
+                    "India",
+                    187,
+                    "India"
+                ],
+                "YearsData": {
+                    "2017": [
+                        0.0000,
+                        null
+                    ],
+                    "2018": [
+                        200.0000,
+                        null
+                    ],
+                    "2019": [
+                        230.0000,
+                        null
+                    ],
+                    "2020": [
+                        0.0000,
+                        null
+                    ],
+                    "2021": [
+                        0.0000,
+                        null
+                    ],
+                    "2022": [
+                        0.0000,
+                        null
+                    ]
+                },
+                "DataRowId": "9be84a3d-bc2b-4f9a-b76b-f2e2360e2c1f",
+                "ChangeLog": null,
+                "IsNewRow": false
+            }
+        ]
+    }
+}

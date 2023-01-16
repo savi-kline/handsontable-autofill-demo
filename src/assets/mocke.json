@@ -1,0 +1,132 @@
+{
+  "HttpStatusCode": 200,
+  "Data": {
+    "MarketYearCategoryId": 1051,
+    "InitialSetup": {
+      "StudyDataSetId": 3,
+      "StudyDataSetName": "Professional Skin Care",
+      "StudyProjectId": 4,
+      "ProjectName": "Y563D",
+      "ProjectLeadId": 23521,
+      "ProjectLead": "sarosh zulfiqar",
+      "AnalystIdList": [
+        23521
+      ],
+      "AnalystNameList": [
+        "sarosh zulfiqar"
+      ],
+      "AnalystId": 23521,
+      "AnalystName": "sarosh zulfiqar",
+      "StudyYear": 2022,
+      "MarketId": 187,
+      "MarketName": "India",
+      "Name": "PSC COLOR",
+      "Description": "PSC COLOR",
+      "Id": 221,
+      "PrefillFromId": 0,
+      "StudyAreaId": 24,
+      "StudyAreaName": "ALL - Sales",
+      "IsSignOff": false,
+      "IsMidYear": false,
+      "LockedForEditBy": 23521,
+      "LockedForEditByName": "sarosh zulfiqar",
+      "CSVAnalystIds": "23521",
+      "CSVAnalystNames": "sarosh zulfiqar",
+      "CalculatorId": 0
+    },
+	"UnitOfValue":[
+					{
+						 "ValueTitle" : "Volume",
+						  "UnitOfValue" : "KTonne",
+						  "UnitOfValueId" : "2"
+					},
+					{
+						 "ValueTitle" : "Currency",
+						  "UnitOfValue" : "INR",
+						  "UnitOfValueId" : 11
+					}
+				],
+	
+	"ColumnList" : [	{
+							"CoulmnTitle" : "Company",
+							"CoulmnIndex" : 0,
+							"IsVisible" : 1
+						},{
+							"CoulmnTitle" : "CompanyId",
+							"CoulmnIndex" : 2,
+							"IsVisible" : 0
+						},
+						{
+							"CoulmnTitle" : "Brand",
+							"CoulmnIndex" : 3
+						},
+						{
+							"CoulmnTitle" : "BrandId",
+							"CoulmnIndex" : 4
+						},
+						{
+							"CoulmnTitle" : "Channel",
+							"CoulmnIndex" : 5
+						},
+						{
+							"CoulmnTitle" : "ChannelId",
+							"CoulmnIndex" : 6
+						}
+					],
+	"YearsList" : [
+					{
+						"Year" : 2021,
+						"YearType": "Previous",
+						"Values" : [
+									{
+										"CoulmnTitle" : 12.34,
+										"CoulmnIndex" : 0
+									},
+									{
+										"CoulmnTitle" : 345,
+										"CoulmnIndex" : 1
+									}
+						] 
+					},
+					{
+						"Year" : 2022,
+						"YearType": "Current",
+						"Values" : [
+									{
+										"CoulmnTitle" : 346.34,
+										"CoulmnIndex" : 0
+									},
+									{
+										"CoulmnTitle" : 123,
+										"CoulmnIndex" : 1
+									}
+						] 
+					}
+				]	,			
+    "DataItems": [
+      {
+		"DataAttributes" : [		"All other",    				
+									1 ,								
+									"All other",				
+									34,								
+									"Beauty institutes and spas",   
+									45								
+							],
+
+		"YearsData":[
+						[				
+							12.34, 		
+							345				
+						],  
+						[					
+							346.34, 		
+							123                
+						]
+					],		 
+        "DataRowId": "762f8486-6e73-4f6c-b842-fe60ede6ffa4",
+        "ChangeLog": null,
+        "IsNewRow": false
+      }
+    ]
+  }
+}

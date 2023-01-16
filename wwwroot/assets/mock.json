@@ -1,0 +1,103 @@
+{
+  "HttpStatusCode": 200,
+  "Data": {
+    "MarketYearCategoryId": 1051,
+    "InitialSetup": {
+      "StudyDataSetId": 3,
+      "StudyDataSetName": "Professional Skin Care",
+      "StudyProjectId": 4,
+      "ProjectName": "Y563D",
+      "ProjectLeadId": 23521,
+      "ProjectLead": "sarosh zulfiqar",
+      "AnalystIdList": [
+        23521
+      ],
+      "AnalystNameList": [
+        "sarosh zulfiqar"
+      ],
+      "AnalystId": 23521,
+      "AnalystName": "sarosh zulfiqar",
+      "StudyYear": 2022,
+      "MarketId": 187,
+      "MarketName": "India",
+      "Name": "PSC COLOR",
+      "Description": "PSC COLOR",
+      "Id": 221,
+      "PrefillFromId": 0,
+      "StudyAreaId": 24,
+      "StudyAreaName": "ALL - Sales",
+      "IsSignOff": false,
+      "IsMidYear": false,
+      "LockedForEditBy": 23521,
+      "LockedForEditByName": "sarosh zulfiqar",
+      "CSVAnalystIds": "23521",
+      "CSVAnalystNames": "sarosh zulfiqar",
+      "CalculatorId": 0
+    },
+    "BrandSales": [
+      {
+        "Company": "All other",
+        "CompanyId": 38,
+        "Brand": "All other",
+        "BrandId": 41,
+        "ChannelId": 4,
+        "Channel": "Beauty institutes and salons",
+        "CurrencyCode": "INR",
+        "CurrencyName": "Indian Rupee",
+        "CurrencyId": 11,
+		"YearsData":[
+		  {
+			 "Year" : 2021,
+			 "YearType": "Previous",
+			 "Values":[
+			   {
+				  "UnitOfValue" : "Volume",
+				  "Value" : 1.1
+			   },
+			   {
+				  "UnitOfValue" : "Currency",
+				  "Value" : 100
+			   }
+			 ]
+			
+		  },
+		  {
+			 "Year" : 2022,
+			 "YearType": "Current",
+			 "Values":[
+			   {
+				  "UnitOfValue" : "Volume",
+				  "Value" : 1.2
+			   },
+			   {
+				  "UnitOfValue" : "Currency",
+				  "Value" : 200
+			   }
+			 ]
+			
+		  },
+		  {
+			 "Year" : 2027,
+			 "YearType": "Forecast",
+			 "Values":[
+			   {
+				  "UnitOfValue" : "Volume",
+				  "Value" : 1.3
+			   },
+			   {
+				  "UnitOfValue" : "Currency",
+				  "Value" : 300
+			   }
+			 ]
+			
+		  }
+		],
+        "DataRelationId": null,
+        "Notes": null,
+        "DataRowId": "762f8486-6e73-4f6c-b842-fe60ede6ffa4",
+        "ChangeLog": null,
+        "IsNewRow": false
+      }
+    ]
+  }
+}
